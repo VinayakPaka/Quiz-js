@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Daily Quiz To Test Your JavaScript Knowledge!</title>
+    <link rel = "icon" type = "image/x-icon" href = "./images/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class = "quiz">
+            <div class="heading">
+                <p class = "title">Daily Quiz</p>
+                <p class = "subtitle">Daily Quiz To Test Your General Knowledge!</p>
+            </div>
+            <div class="result hide">
+                <p >You Scored 5/5</p>
+                <p class="reload">
+                    <button onclick = "location.reload()"> Try Again !</button>
+                </p>
+            </div>
+
+            <form action="" class="quiz-form">
+                <div class="question">
+                    <p>1. Who is the Prime Minister of India?</p>
+                    <div class="options">
+                        <div class="option">    
+                            <label for="option-11">
+                                <input type="radio" name="option" value="A" id="option-1">A. Narendra Modi
+                            </label>
+                        </div>
+                        <div class="option">
+                            <label for="option-21">
+                                <input type="radio" name="option" value="B" id="option-2">B. Ram Nath Kovind
+                            </label>
+                        </div>
+                        <div class="option">
+                            <label for="option-31">
+                                <input type="radio" name="option" value="C" id="option-3">C. Amit Shah
+                            </label>
+                        </div>
+                    </div>     
+                </div>
+                <div class="question">
+                    <p>2. What is the capital city of France?</p>
+                    <div class="options2">
+                        <div class="option2">    
+                            <label for="q2-option-12">
+                                <input type="radio" name="option2" value="A" id="option-1">A. Berlin
+                            </label>
+                        </div>
+                        <div class="option2">
+                            <label for="q2-option-22">
+                                <input type="radio" name="option2" value="B" id="option-2">B. Paris
+                            </label>
+                        </div>
+                        <div class="option2">
+                            <label for="q2-option-32">
+                                <input type="radio" name="option2" value="C" id="option-3">C. Madrid
+                            </label>
+                        </div>
+                    </div>     
+                </div>
+                <div class="question">
+                    <p>3. What planet is known as the Red Planet?</p>
+                    <div class="options3">
+                        <div class="option3">    
+                            <label for="q3-option-13">
+                                <input type="radio" name="option3" value="A" id="option-1">A. Mars
+                            </label>
+                        </div>
+                        <div class="option3">
+                            <label for="q3-option-23">
+                                <input type="radio" name="option3" value="B" id="option-2">B. Venus
+                            </label>
+                        </div>
+                        <div class="option3">
+                            <label for="q3-option-33">
+                                <input type="radio" name="option3" value="C" id="option-3">C. Jupiter
+                            </label>
+                        </div>
+                    </div>     
+                </div>
+                <div class="question">
+                    <p>4. What does "HTML" stand for?</p>
+                    <div class="options4">
+                        <div class="option4">    
+                            <label for="q4-option-14">
+                                <input type="radio" name="option4" value="A" id="option-1">A. HighText Machine Language
+                            </label>
+                        </div>
+                        <div class="option4">
+                            <label for="q4-option-24">
+                                <input type="radio" name="option4" value="B" id="option-2">B. HyperText Markup Language
+                            </label>
+                        </div>
+                        <div class="option4">
+                            <label for="q4-option-34">
+                                <input type="radio" name="option4" value="C" id="option-3">C. Hyper Transfer Machine Language
+                            </label>
+                        </div>
+                    </div>     
+                </div>
+                <div class="question">
+                    <p>5. Who was the first President of the United States?</p>
+                    <div class="options5">
+                        <div class="option5">    
+                            <label for="q5-option-15">
+                                <input type="radio" name="option5" value="A" id="option-1">A. Abraham Lincoln
+                            </label>
+                        </div>
+                        <div class="option5">
+                            <label for="q5-option-25">
+                                <input type="radio" name="option5" value="B" id="option-2">B. George Washington
+                            </label>
+                        </div>
+                        <div class="option5">
+                            <label for="q5-option-35">
+                                <input type="radio" name="option5" value="C" id="option-3">C. John Adams
+                            </label>
+                        </div>
+                    </div>     
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value = "Submit">
+                </div>
+
+
+            </form>
+
+        </section>
+    </main>
+    <script src = "./index.js"></script>
+</body>
+</html>
